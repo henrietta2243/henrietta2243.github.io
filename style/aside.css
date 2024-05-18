@@ -1,0 +1,94 @@
+:root {
+    --bg-col-prim: rgb(156, 205, 248);
+    --bg-col-sec: rgb(240, 248, 255);
+    --bg-col-thd: rgb(240, 240, 255);
+    --hover-col-1: rgb(233, 233, 255);
+    --col-prim: black;
+}
+
+.rndcont a {
+    max-width: 300px;
+    max-height: 133px;
+}
+
+.rndPostContainer {
+    display: flex;
+    background-color: var(--bg-col-thd);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    max-height: 113px;
+}
+
+.rndPostContainer:hover {
+    background-color: var(--hover-col-1);
+}
+
+.rel-image {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rel-image.nnxt {
+    max-height: 110px;
+}
+
+
+.rndPostContainer img {
+    max-width: 180px;
+    border-radius: 10px;
+}
+
+.rndPostContainer a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 10px;
+    color: var(--col-prim);
+    max-height: 113px;
+}
+
+.rndPostContainer .separator a {
+    padding: 0;
+}
+
+.skeleton {
+    background-image: linear-gradient(
+      120deg,
+      #ececec 50%,
+      #fafafa 60%,
+      #fafafa 61%,
+      #ececec 70%
+    );
+    background-size: 200%;
+    background-position: 100% 0;
+    animation: waves 2s linear infinite;
+    border-radius: 10px;
+    width: 160px;
+    height: 16px;
+    margin-bottom: 5px;
+}
+
+.skeleton1 {
+    background-image: linear-gradient(
+      120deg,
+      #ececec 50%,
+      #fafafa 60%,
+      #fafafa 61%,
+      #ececec 70%
+    );
+    background-size: 200%;
+    background-position: 100% 0;
+    animation: waves 2s linear infinite;
+    border-radius: 10px;
+    width: 140px;
+    height: 16px;
+    margin-bottom: 5px;
+}
+  
+@keyframes waves {
+    100% {
+      background-position: -100% 0;
+    }
+}
