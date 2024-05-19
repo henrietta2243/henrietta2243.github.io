@@ -26,7 +26,7 @@ themesDivs.forEach(div => {
     }
 
     function notFound(){
-        div.style.backgroundImage='url("/Home-Page/img/404.png")';
+        div.style.backgroundImage='url("/img/404.png")';
     }
 
     if (img.error){
