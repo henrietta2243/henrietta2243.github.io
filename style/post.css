@@ -75,7 +75,7 @@ body {
     align-content: start;
 }
 
-.show1 {
+.shwz1 {
     position: absolute;
     display: none;
     flex-direction: row;
@@ -92,7 +92,7 @@ body {
     transition: display 900ms ease-in-out;
 }
 
-.show1.active {
+.shwz1.active {
     display: flex;
 }
 
@@ -164,7 +164,7 @@ body {
     display: none;
 }
 
-.show {
+.shwz {
     position: absolute;
     z-index: 3;
     display: none;
@@ -181,7 +181,7 @@ body {
     transition: display 900ms ease-in-out;
 }
 
-.show.active {
+.shwz.active {
     display: flex;
 }
 

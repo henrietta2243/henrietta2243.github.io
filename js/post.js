@@ -39,7 +39,7 @@ const relDivs = document.querySelectorAll(".rel-image")
 
 
 
-const button1 = document.querySelectorAll(".show")
+const button1 = document.querySelectorAll(".shwz")
 button1.forEach(div => {
     const img = document.querySelector(".imgDsp1")
 
@@ -87,8 +87,8 @@ function openNsfw(nsfw){
 
 function remNuxt(nuxt){
     if (nuxt == null) return
-    nuxt.classList.remove('show')
-    nuxt.classList.remove('show1')
+    nuxt.classList.remove('shwz')
+    nuxt.classList.remove('shwz1')
     nuxt.classList.add('nuxt')
 }
 

@@ -47,7 +47,7 @@ openNsfwBtn.forEach(button => {
 remNuxtBtn.forEach(button => {
   function remNuxt(nuxt){
     if (nuxt == null) return
-    nuxt.classList.remove('show')
+    nuxt.classList.remove('shwz')
     nuxt.classList.add("nuxt")
   }
     button.addEventListener('click', () =>{
