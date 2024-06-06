@@ -12,7 +12,7 @@
 }
 
 .rndPostContainer {
-    display: flex;
+    display: block;
     background-color: var(--bg-col-thd);
     border-radius: 10px;
     margin-bottom: 5px;
@@ -23,10 +23,12 @@
     background-color: var(--hover-col-1);
 }
 
+
 .rel-image {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-left: auto;
 }
 
 .rel-image.nnxt {

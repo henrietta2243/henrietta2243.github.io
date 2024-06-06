@@ -152,8 +152,10 @@ body {
     border-radius: 16px;
     position: relative;
     margin-top: 1rem;
-    max-width: 618px;
+    max-width: 800px;
     transition: 500ms ease-in;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nnxt {

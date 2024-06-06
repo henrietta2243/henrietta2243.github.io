@@ -49,12 +49,17 @@ body {
     display: grid;
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     gap: 1rem;
     margin: 10px 30px;
 }
 
+@media (max-width: 1370px) {
+    .themes-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 @media (max-width: 986px) {
     .themes-container {
         grid-template-columns: repeat(2, 1fr);
