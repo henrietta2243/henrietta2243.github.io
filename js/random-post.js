@@ -50,5 +50,5 @@ function getRandomPosts(numPosts) {
 
 
 window.onload = function() {
-    getRandomPosts(3);
+    getRandomPosts(6);
 };
