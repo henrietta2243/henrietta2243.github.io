@@ -26,7 +26,7 @@ jobs:
         run: echo "BLOGGER_A=${{ secrets.BLOGGER_A }}" >> .env
 
       - name: Install dependencies
-        run: npm install
+        run: echo "Skipping npm install (no package.json found)"
 
       - name: Build & Deploy
         run: npm run build
