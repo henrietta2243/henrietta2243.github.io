@@ -24,9 +24,10 @@ jobs:
 
       - name: Create .env file
         run: echo "BLOGGER_A=${{ secrets.BLOGGER_A }}" >> .env
+        
+      - name: Install gh-pages
+        run: npm install gh-pages --save-dev
 
-      - name: Install dependencies
-        run: echo "Skipping npm install (no package.json found)"
+      - name: Deploy to GitHub Pages
+        run: npm run deploy
 
-      - name: Build & Deploy
-        run: npm run build
