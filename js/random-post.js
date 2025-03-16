@@ -1,5 +1,5 @@
 function getRandomPosts(numPosts) {
-    const apiKey = process.env.BLOGGER_A;
+    const apiKey = 'AIzaSyAXOGhTqzZAcPWt91G-XdX8srcBhIJH8To';
 
     const blogId = '6079813804505380240';
 
