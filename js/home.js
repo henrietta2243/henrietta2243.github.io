@@ -15,9 +15,9 @@ carouselDivs.forEach( div => {
   }
 })
 
-const imgCardDivs = document.querySelectorAll(".img-card")
+const aimpImgDivs = document.querySelectorAll(".aimp-img")
 
-imgCardDivs.forEach( div => {
+aimpImgDivs.forEach( div => {
   const img = div.querySelector("img")
 
   function loaded(){
@@ -32,14 +32,13 @@ imgCardDivs.forEach( div => {
   }
 })
 
-const aimpImgDivs = document.querySelectorAll(".aimp-img")
+const imgCardDivs = document.querySelectorAll(".themes")
 
-aimpImgDivs.forEach( div => {
-  const img = div.querySelector("img")
+imgCardDivs.forEach( div => {
+  const img = div.querySelector(".images")
 
   function loaded(){
     div.classList.add("loaded")
-    div.classList.remove("skeleton")
   }
 
   if (img.complete) {
