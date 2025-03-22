@@ -16,6 +16,7 @@ body {
 .navbar {
     background-color: var(--bg-col-prim);
     color: black;
+	height: 60px;
 }
 
 @media all and (min-width:992px) {
